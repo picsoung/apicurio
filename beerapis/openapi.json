@@ -15,5 +15,37 @@
                 }
             }
         }
+    },
+    "definitions": {
+        "BeerObject": {
+            "title": "Root Type",
+            "description": "The root of the BeerObject type's schema.",
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "brewery": {
+                    "type": "string"
+                },
+                "type": {
+                    "type": "string"
+                },
+                "abv": {
+                    "format": "double",
+                    "type": "number"
+                },
+                "rating": {
+                    "format": "int32",
+                    "type": "integer"
+                },
+                "country": {
+                    "type": "string"
+                }
+            }
+        }
     }
 }
