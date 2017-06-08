@@ -4,5 +4,16 @@
         "title": "BeerAPIs",
         "description": "All you need to know about beers in an API",
         "version": "1.0"
+    },
+    "paths": {
+        "/beers": {
+            "get": {
+                "summary": "List beers",
+                "description": "Get all the beers",
+                "responses": {
+                    "200": {}
+                }
+            }
+        }
     }
 }
