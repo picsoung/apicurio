@@ -13,7 +13,9 @@
                 "responses": {
                     "200": {}
                 }
-            }
+            },
+            "put": {},
+            "post": {}
         }
     },
     "definitions": {
@@ -46,6 +48,15 @@
                     "type": "string"
                 }
             }
+        }
+    },
+    "securityDefinitions": {
+        "APIKey": {
+            "type": "apiKey",
+            "description": "",
+            "name": "apikey",
+            "in": "query",
+            "scopes": {}
         }
     }
 }
