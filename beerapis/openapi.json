@@ -1,6 +1,8 @@
 {
     "swagger": "2.0",
     "info": {
-        "title": "BeerAPIs"
+        "title": "BeerAPIs",
+        "description": "All you need to know about beers in an API",
+        "version": "1.0"
     }
 }
