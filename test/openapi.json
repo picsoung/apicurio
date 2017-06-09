@@ -3,5 +3,26 @@
     "info": {
         "title": "test",
         "description": "Testing API"
+    },
+    "paths": {
+        "/users": {
+            "get": {}
+        }
+    },
+    "definitions": {
+        "user": {
+            "title": "Root Type",
+            "description": "The root of the user type's schema.",
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "age": {
+                    "format": "int32",
+                    "type": "integer"
+                }
+            }
+        }
     }
 }
