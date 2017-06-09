@@ -11,7 +11,11 @@
                 "summary": "List beers",
                 "description": "Get all the beers",
                 "responses": {
-                    "200": {}
+                    "200": {
+                        "schema": {
+                            "$ref": "#/definitions/BeerObject"
+                        }
+                    }
                 }
             },
             "put": {},
