@@ -3,5 +3,9 @@
     "info": {
         "title": "test",
         "description": "test api"
+    },
+    "paths": {
+        "/users": {},
+        "/users/{id}": {}
     }
 }
