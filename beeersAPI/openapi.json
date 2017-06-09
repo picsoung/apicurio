@@ -1,6 +1,20 @@
 {
     "swagger": "2.0",
     "info": {
-        "title": "beeersAPI"
+        "title": "beeersAPI",
+        "description": "blabla",
+        "license": {
+            "name": "MIT License",
+            "url": "https://opensource.org/licenses/MIT"
+        },
+        "version": "1.0"
+    },
+    "securityDefinitions": {
+        "apikey": {
+            "type": "apiKey",
+            "name": "apices",
+            "in": "header",
+            "scopes": {}
+        }
     }
 }
